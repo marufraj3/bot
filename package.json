@@ -1,0 +1,32 @@
+{
+  "name": "whatsapp-smm-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp AI Support System for SMM Panel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "smm",
+    "baileys"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^6.4.1",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "node-cache": "^5.1.2",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.x"
+  }
+}
